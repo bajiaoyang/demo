@@ -1,0 +1,156 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.mar-auto{
+	width: 1200px;
+	margin: 0 auto;
+}
+.clear:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+
+input {
+	outline: none;
+	border: none;
+}
+
+body {
+	padding-top: 24px;
+	font-size: 12px;
+	font-family: "microsoft yahei helvetica";
+}
+
+.head>.head-top p {
+	line-height: 18px;
+	padding: 4px 20px;
+	border-left: 1px solid #dcdcdc;
+}
+
+.head>.head-top input[type=search] {
+	width: 310px;
+	font-size: 16px;
+	padding: 9px 0 12px 12px;
+	border: 1px solid #dcdcdc;
+	outline: none;
+	border-right: none;
+}
+
+.head>.head-top input[type=search]:focus {
+	border-color: #aeaeae;
+}
+
+.head>.head-top input[type=submit] {
+	width: 42px;
+	height: 42px;
+	background: #ff5842 url(../images/search.png) no-repeat center center;
+}
+
+.head-btm {
+	padding-top: 10px;
+	line-height: 50px;
+}
+
+.head-btm li {
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	padding-right: 48px;
+	font-size: 20px;
+}
+
+.head-btm li:hover,.head-btm li.this {
+	color: #ff5842;
+}
+.head-btm>div a{
+	display: inline-block;
+	padding: 8px 10px;
+	line-height: 28px;
+}
+
+.head-btm>div a{
+	background-color: #a1a1a1;
+	color: #fff;
+}
+.head-btm>div a:hover{
+	background-color: #ff5842;
+}
+.foot-top{
+	padding-top: 20px;
+	background-color: #222f35;
+	padding-bottom: 32px;
+}
+.foot-btm{
+	background-color: #172125;
+	padding: 8px 0;
+}
+.foot-top>div>div:nth-child(1){
+	width: 360px;
+}
+.foot-top>div>div>h1{
+	height: 34px;
+	line-height: 34px;
+	color: #fff;
+	font-size: 24px;
+	font-weight: normal;
+	background: url(../images/warn.png) no-repeat left center;
+	padding-left: 40px;
+}
+.foot-top>div>div>p{
+	padding-top: 15px;
+	line-height: 20px;
+	color: #829fad;
+	font-size: 14px;
+}
+.foot-top dl{
+	padding: 0 56px;
+	float: left;
+}
+.foot-top dt{
+	height: 34px;
+	line-height: 34px;
+	font-size: 24px;
+	color: #fff;
+	padding-bottom: 15px;
+}
+.foot-top dd{
+	line-height: 20px;
+	font-size: 14px;
+	color: #829fad;
+}
+.foot-top dd:hover{
+	color: #a3c8da;
+}
+.foot-btm li{
+	float: left;
+	margin-right: 2px;
+}
+.foot-btm p{
+	height: 38px;
+	line-height: 38px;
+	color: #82a0ad;
+	font-size: 14px;
+}
+.foot-btm img{
+	background-color: #222f35;
+}
